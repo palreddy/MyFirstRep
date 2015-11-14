@@ -26,6 +26,8 @@ public class CarMaxCommonStepDefinition extends AbstractStepDefinition{
 	public void I_click_on_button(String search) throws Throwable {
 		driver.findElement(By.xpath("//input[@value='"+search+"']")).click();
 		System.out.println("Im in when method......");
+		System.out.println("Im in when method2......");
+		
 		
 	   
 	}
