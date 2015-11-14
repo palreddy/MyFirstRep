@@ -25,6 +25,7 @@ public class CarMaxCommonStepDefinition extends AbstractStepDefinition{
 	@When("^I click on \"([^\"]*)\" button$")
 	public void I_click_on_button(String search) throws Throwable {
 		driver.findElement(By.xpath("//input[@value='"+search+"']")).click();
+		System.out.println("Im in when method......");
 		
 	   
 	}
